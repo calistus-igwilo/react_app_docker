@@ -26,6 +26,18 @@ function App() {
 
         </ul>
       </header>
+      <div className="App">
+        <p>
+        This App is packaged in Docker image and can be pulled from: 
+        <a 
+          className="App-link" 
+          href="icalistus/react-app"
+        >
+          icalistus/react-app
+        </a>
+        </p>
+        To run the app use the command: <code>docker container start icalistus/react-app</code>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,11 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "docker-my-app",
+  "version": "1.0",
   "private": true,
+  "description": "Node.js app on Docker",
+  "author": "Calistus Igwilo",
+  "email": "calistus@caltech-ltd.com",
+  "github": "https://github.com/calistus-igwilo",
   "dependencies": {
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
